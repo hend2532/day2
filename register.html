@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 Register</title>
+    <link rel="stylesheet" href="/register.css" />
+  </head>
+  <body>
+    <h1>Registration</h1>
+    <hr />
+    <div class="main">
+      <h2>Personal Data</h2>
+      <form action="">
+        <label>First Name</label>
+        <input type="text" placeholder="enter your name here..." />
+        <br />
+        <label>Last Name</label>
+        <input type="text" placeholder="enter your last name..." />
+        <br />
+        <label>Password</label>
+        <input type="password" placeholder="password..." />
+        <br />
+        <h3>Gender</h3>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <h3>Material Status</h3>
+        <select name="material_status">
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+        </select>
+        <br>
+        <h2>Interests</h2>
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label>
+        <br>
+        <input type="checkbox" id="Books" name="interests" value="Books" />
+        <label for="Books">Books</label>
+        <input type="checkbox" id="computer" name="interests" value="computer" />
+        <label for="computer">computers Stuff</label>
+        <br>
+        <input type="checkbox" id="fashion" name="interests" value="fashion" />
+        <label for="music">Fashion</label>
+        <input type="checkbox" id="movies" name="interests" value="movies" />
+        <label for="movies">Movies</label>
+        <br><Br>
+        <h2>comments</h2>
+        <textarea name="comments" >comment...</textarea>
+        <br><br>
+        <button>Ok</button>
+        <button>cancel</button>
+        <button><a href="/login.html">Login</a></button>
+    </form>
+    </div>
+  </body>
+</html>

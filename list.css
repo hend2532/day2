@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: auto;
+}
+h1{
+    color: rgb(193, 169, 17);
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+hr{
+    background: rgb(193, 169, 17);
+    height: .35px;
+}
+h3{
+    color: rgb(193, 169, 17);
+    padding:  10px 30px ;
+}
+ol,ul{
+    padding: 0px 35px ;
+    /* margin-bottom: 10px; */
+    
+    margin:10px  20px ;
+}
+ul li ,ol li{
+    color: #857024;
+}
+p{
+    color: #b7aa4b;
+    margin: 5px;
+    padding:0 50px;
+}
+button{
+    background: rgb(193, 169, 17);
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5% ;
+}
+button a{
+    color:white;
+    font-size: 17px;
+}

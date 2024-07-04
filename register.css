@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 500px;
+    min-height: 55vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgb(188, 184, 160);
+    margin:5px auto;
+}
+h1{
+    color: rgb(193, 169, 17);
+    text-align: center;
+    margin: 15px;
+    font-size: 25px;
+}
+h2{
+    color: rgb(193, 169, 17);
+    padding:  5px 30px ;
+    text-align: center;
+}
+h2:not(:first-child){
+    border-top:1px solid  rgb(193, 169, 17);
+}
+
+h3{
+    color: rgb(193, 169, 17);
+    padding:  10px 30px ;
+    font-size: 18px;
+    font-weight: 500;
+}
+form{
+    padding:5px 30px;
+}
+label{
+    color: #b7aa4b;
+}
+input,select{
+    border: 1px solid rgb(193, 169, 17);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #777;
+    outline: none;
+}
+input::placeholder{
+    color: #b7aa4b;
+}
+input[type="checkbox"]{
+    margin-left: 40px;
+}
+textarea{
+    border: 1px solid rgb(193, 169, 17);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 20%;
+    color: #b7aa4b;
+    outline: none;
+    width: 300px;
+    height: 70px;
+    resize: none;
+}
+button{
+    background: rgb(193, 169, 17);
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    color:white;
+    cursor: pointer;
+}
+button a{
+    color:white;
+    /* font-size: 17px; */
+}

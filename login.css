@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 500px;
+    border-radius: 5px;
+    margin:10% auto;
+    padding: 40px;
+}
+fieldset{
+    color: rgb(193, 169, 17);
+    padding: 20px;
+    padding-left: 40px ;
+    border-radius: 5px;
+    border: 1px solid rgb(193, 169, 17);
+}
+legend{
+    font-size: 20px;
+    font-weight: 600;
+}
+h1{
+    color: rgb(193, 169, 17);
+    text-align: center;
+    margin: 15px;
+    font-size: 25px;
+}
+h2{
+    color: rgb(193, 169, 17);
+    padding:  5px 30px ;
+    text-align: center;
+}
+
+
+h3{
+    color: rgb(193, 169, 17);
+    padding:  10px 30px ;
+    font-size: 18px;
+    font-weight: 500;
+}
+form{
+    padding:5px 30px;
+}
+label{
+    color: #b7aa4b;
+}
+input,select{
+    border: 1px solid rgb(193, 169, 17);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #777;
+    outline: none;
+}
+input::placeholder{
+    color: #b7aa4b;
+}
+/* input[type="checkbox"]{
+    margin-left: 40px;
+} */
+
+button{
+    background: rgb(193, 169, 17);
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    color:white;
+    cursor: pointer;
+}
+button a{
+    color:white;
+    /* font-size: 17px; */
+}

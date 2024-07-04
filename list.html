@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 List</title>
+    <link rel="stylesheet" href="/list.css">
+</head>
+<body>
+    <h1>Unordered List Example</h1>
+    <hr>
+    <ul>
+        <li>Unordered lists
+            <ul type="circle">
+                <li>can be nested
+                    <ul type="Square">
+                        <li>Bullet Changes on nested</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>2nd item</li>
+    </ul>
+    <p>Bullets can be controlled with <span>type</span> attribute. <span>Type can be set for the list as a whole or item by item.</span></p>
+    <ul type="Square">
+        <li>First item bullet shape set by ul</li>
+        <li>Disc item</li>
+        <li>Circle item</li>
+        <li>Square item</li>
+    </ul>
+    <hr>
+    <h1>Ordered List Example</h1>
+    <h3>Ordered lists can be very simple</h3>
+    <ol type="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h3>Ordered lists can start at different values and with different types</h3>
+    <ol type="a">
+        <ol start="j" type="a" >
+            <li >This should be j</li>
+        </ol>
+        <ol type="a" start="c">
+            <li >This should be c
+                <ol type="1">
+                    <li>Lists can nest
+                        <ol type="i">
+                            <li>Nesting depth is unlimited</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    <button><a href="register.html">Register</a></button>
+</body>
+</html>
